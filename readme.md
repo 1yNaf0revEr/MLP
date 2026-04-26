@@ -21,30 +21,19 @@ Fashion-MNIST：10 类服装灰度图像，尺寸 28×28
 首次运行自动下载至 data/ 目录，下载失败可手动放入原始压缩包。
 
 ## 项目结构
-.
-├── data.py        # 数据加载、预处理、批生成
-
-├── layers.py      # 线性层/激活层（前向+反向）
-
-├── loss.py        # Softmax 交叉熵损失
-
-├── model.py       # 三层 MLP 模型
-
-├── optimizer.py   # SGD + L2 正则
-
-├── utils.py       # 评估、可视化、模型保存加载
-
-├── train.py       # 训练流程
-
-├── search.py      # 超参数搜索
-
-├── test.py        # 测试集评估
-
-├── main.py        # 主入口
-
-├── data/
-├── checkpoints/
-└── search_results/
+- data.py          # 数据加载、预处理、批生成
+- layers.py        # 线性层/激活层（前向+反向）
+- loss.py          # Softmax 交叉熵损失
+- model.py         # 三层 MLP 模型
+- optimizer.py     # SGD + L2 正则
+- utils.py         # 评估、可视化、模型保存加载
+- train.py         # 训练流程
+- search.py        # 超参数搜索
+- test.py          # 测试集评估
+- main.py          # 主入口
+- data/
+- checkpoints/
+- search_results/
 
 ## 模型结构
 标准三层 MLP：
