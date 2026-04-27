@@ -53,7 +53,5 @@ python main.py
 - checkpoints/final_best_model.npz：最优模型
 - search_results/search_results.json：超参搜索记录
 
-## 仓库与模型
-GitHub 仓库：
-
-模型权重下载：
+## 训练模型
+https://drive.google.com/drive/folders/1AxzqxdwHcgFOith5dcNbARq3KWh0v_2U?usp=drive_link
